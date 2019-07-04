@@ -1,7 +1,7 @@
 {
   "name": "@toby.mosque/feathersjs-express",
   "description": "Feathers Express framework bindings and REST provider",
-  "version": "4.0.0-pre.3",
+  "version": "4.0.0-pre.3v2",
   "homepage": "https://feathersjs.com",
   "main": "lib/",
   "types": "index.d.ts",

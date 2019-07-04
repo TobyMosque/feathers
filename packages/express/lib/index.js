@@ -20,7 +20,7 @@ function feathersExpress (feathersApp, expressApp) {
     throw new Error(`@feathersjs/express requires an instance of a Feathers application version 3.x or later (got ${feathersApp.version || 'unknown'})`);
   }
 
-  const expressApp = expressApp || express();
+  expressApp = expressApp || express();
   // An Uberproto mixin that provides the extended functionality
   const mixin = {
     use (location) {
