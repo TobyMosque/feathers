@@ -1,5 +1,5 @@
 {
-  "name": "@feathersjs/express",
+  "name": "@toby.mosque/feathersjs-express",
   "description": "Feathers Express framework bindings and REST provider",
   "version": "4.0.0-pre.3",
   "homepage": "https://feathersjs.com",
@@ -12,16 +12,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feathersjs/feathers.git"
+    "url": "git://github.com/TobyMosque/feathers.git"
   },
-  "author": {
-    "name": "Feathers contributors",
-    "email": "hello@feathersjs.com",
-    "url": "https://feathersjs.com"
-  },
+  "author": "Feathers contributors <hello@feathersjs.com> (https://feathersjs.com)",
   "contributors": [],
   "bugs": {
-    "url": "https://github.com/feathersjs/feathers/issues"
+    "url": "https://github.com/TobyMosque/feathers/issues"
   },
   "engines": {
     "node": ">= 6"
@@ -30,7 +26,8 @@
     "test": "mocha --opts ../../mocha.opts"
   },
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "publishConfig": {
     "access": "public"
@@ -52,6 +49,5 @@
     "chai": "^4.2.0",
     "lodash": "^4.17.11",
     "mocha": "^6.1.4"
-  },
-  "gitHead": "19eb75737659e3e4b57765c1653d23c86fd2e1c3"
+  }
 }
